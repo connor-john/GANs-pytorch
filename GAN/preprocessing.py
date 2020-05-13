@@ -36,6 +36,6 @@ def make_env(batch_size):
 
     train_data = get_data()
 
-    train_loader = prep_data(train_data, batch_size)
+    data_loader = prep_data(train_data, batch_size)
 
-    return train_loader
+    return data_loader
