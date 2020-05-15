@@ -36,9 +36,9 @@ class Disc(nn.Module):
     return self.main(x)
 
 # Generator Model
-class Gen(nn.Module):
+class Gene(nn.Module):
   def __init__(self, latent_dim, output_dim, ngf):
-    super(Gen, self).__init__()
+    super(Gene, self).__init__()
 
     self.main = nn.Sequential(
 
