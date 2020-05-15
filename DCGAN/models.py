@@ -49,10 +49,15 @@ class Gen(nn.Module):
 
       # First Layer
       nn.ConvTranspose2d(ngf * 8, ngf * 4, 4, 2, 1, bias = False),
-      nn.BatchNorm2d(ngf * 2),
+      nn.BatchNorm2d(ngf * 4),
       nn.ReLU(True),
 
       # Second Layer
+      nn.ConvTranspose2d( ngf * 4, ngf * 2, 4, 2, 1, bias=False),
+      nn.BatchNorm2d(ngf * 2),
+      nn.ReLU(True),
+
+      # Third Layer
       nn.ConvTranspose2d( ngf * 2, ngf, 4, 2, 1, bias=False),
       nn.BatchNorm2d(ngf),
       nn.ReLU(True),
