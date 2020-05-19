@@ -29,3 +29,11 @@ Deep-Convolutional GAN implementation using CelebA
  Result after 5 epochs
  
  <img src ="DCGAN/gan_images/gan_gen_5e.png" width = 400>
+ 
+ 
+ ### Coming soon
+ 
+ - Semi-supervised GAN
+ - CGAN
+ - InfoGAN
+ - Cycle-GAN
