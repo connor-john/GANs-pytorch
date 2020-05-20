@@ -33,6 +33,7 @@ Deep-Convolutional GAN implementation using CelebA
  
  ### Coming soon
  
+ - WGAN
  - Semi-supervised GAN
  - CGAN
  - InfoGAN
